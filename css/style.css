@@ -1,0 +1,129 @@
+*{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: auto;
+ margin: auto;
+ color: black;
+ 
+}
+
+/****************header****************/
+div#menu{
+    position:fixed;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(146, 146, 146);
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+}
+header a h1{
+    color: rgb(228, 198, 63);
+    padding-top: 25px;
+}
+
+
+/****************header****************/
+
+/****************nav****************/
+
+nav{
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul a li{
+    list-style: none;
+}
+
+/****************nav****************/
+
+/****************section****************/
+
+section{
+    background-color: rgb(231, 146, 146);
+}
+
+/****************game****************/
+
+div#game{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+}
+
+/****************game****************/
+
+
+/****************personagens****************/
+
+div#personagem{
+    height: 500px;
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+}
+img{
+    height: 417px;
+    width: 250px;
+    padding-top: 100px;
+    padding:20px;
+}
+img{
+    opacity: 50%;
+}
+img#yugo{
+    background-color: white;
+}
+img#gumball{
+    background-color: white;
+}
+img#himawari{
+    background-color: white;
+}
+img#rimuru{
+    background-color: white;
+}
+img#soluco{
+    background-color: white;
+}
+/****************personagens****************/
+
+/****************donwload****************/
+
+div#download{
+    height: 100px;
+    background-color: rgb(119, 119, 119);
+}
+
+/****************donwload****************/
+
+
+/****************sobre****************/
+
+div#sobre{
+    height: 200px;
+    background-color: rgb(59, 59, 59);
+}
+
+/****************sobre****************/
+/****************section****************/
+
+
+/****************footer****************/
+
+footer{
+    height: 50px;
+    background-color: rgb(26, 26, 26);
+}
+
+/****************footer****************/
